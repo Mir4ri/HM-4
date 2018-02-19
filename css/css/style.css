@@ -55,9 +55,7 @@ input[type="submit"] {
 }
 
 span {
-    display: grid;  
-    align-items: center;
-    
+    display: grid; 
 }
 
 ul {
@@ -70,6 +68,7 @@ ul li{
 }
 
 a {
+    position: relative;
     height: 4em;
     text-decoration: none; 
     background:rgba(118,117,128,0.05);
@@ -86,13 +85,6 @@ a:hover {
     border-radius: 50%;
 }
 
-img {
-    position: relative;
-    top: 20%;
-    margin-left: 2%;
-    max-width: 100%;
-    max-height: 100%;
-}
 
 
 
